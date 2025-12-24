@@ -48,6 +48,7 @@ export interface AppStoreLink {
   url: string
   badgeUrl: string
   alt: string
+  icon?: string
 }
 
 export interface SocialLink {

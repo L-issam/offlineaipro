@@ -67,7 +67,7 @@ export function Hero() {
             className="flex flex-wrap justify-center gap-6 mb-10 text-sm text-muted-foreground"
           >
             <div className="flex items-center space-x-2">
-              <Brain className="w-4 h-4 text-primary" />
+              <img src="/icon.png" alt="AskTheDocs" className="w-4 h-4 rounded" />
               <span>Gemma 3 1B</span>
             </div>
             <div className="flex items-center space-x-2">
@@ -200,6 +200,26 @@ export function Hero() {
             >
               Local Only
             </motion.div>
+          </div>
+        </motion.div>
+
+        {/* App Screenshots Section */}
+        <motion.div
+          variants={fadeInUp}
+          className="mt-16 text-center"
+        >
+          <h3 className="text-2xl font-bold mb-8">Découvrez l'application</h3>
+          <div className="flex justify-center">
+            <div className="relative">
+              <img
+                src="/splash.png"
+                alt="AskTheDocs - Écran d'accueil"
+                className="rounded-lg shadow-2xl max-w-sm mx-auto"
+              />
+              <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium">
+                Disponible sur Google Play
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>

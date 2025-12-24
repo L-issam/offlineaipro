@@ -180,9 +180,9 @@ export function Pricing() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground flex-1 text-xs h-8 rounded-md px-3"
                       >
-                        <Download className="w-3 h-3 mr-1" />
+                        <div className="w-3 h-3 mr-1" dangerouslySetInnerHTML={{ __html: store.icon || '' }} />
                         <span>
-                          {store.platform === 'ios' ? 'App Store' : 'Google Play'}
+                          Google Play
                         </span>
                       </a>
                     ))}
