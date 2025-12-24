@@ -20,7 +20,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center px-4">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3">
-          <img src="../../app/icon.png" alt="AskTheDocs" className="h-8 w-8 rounded-lg" />
+          <img src="../../icon.png" alt="AskTheDocs" className="h-8 w-8 rounded-lg" />
           <span className="text-xl font-bold">AskTheDocs</span>
         </Link>
 

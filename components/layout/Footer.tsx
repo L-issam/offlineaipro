@@ -12,7 +12,7 @@ export function Footer() {
           {/* Logo & Description */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-3">
-              <img src="../../app/icon.png" alt="AskTheDocs" className="h-6 w-6 rounded" />
+              <img src="../../icon.png" alt="AskTheDocs" className="h-6 w-6 rounded" />
               <span className="text-lg font-bold">AskTheDocs</span>
             </Link>
             <p className="text-sm text-muted-foreground">

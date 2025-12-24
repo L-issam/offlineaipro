@@ -212,7 +212,7 @@ export function Hero() {
           <div className="flex justify-center">
             <div className="relative">
               <img
-                src="../../app/splash.png"
+                src="../../splash.png"
                 alt="AskTheDocs - Écran d'accueil"
                 className="rounded-lg shadow-2xl max-w-sm mx-auto"
               />
