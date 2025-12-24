@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://l-issam.github.io/askthedocs/sitemap.xml

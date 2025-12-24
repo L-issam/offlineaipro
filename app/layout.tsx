@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://askthedocs.app'),
+  metadataBase: new URL('https://l-issam.github.io/askthedocs'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'AskTheDocs - Questions intelligentes à vos documents',
     description: 'Posez des questions à vos documents avec l\'IA. Recherche sémantique, réponses contextuelles, vie privée garantie.',
-    url: 'https://askthedocs.app',
+    url: 'https://l-issam.github.io/askthedocs',
     siteName: 'AskTheDocs',
     locale: 'fr_FR',
     type: 'website',
