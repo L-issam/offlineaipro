@@ -80,9 +80,9 @@ export const features: Feature[] = [
 export const pricingPlans: PricingPlan[] = [
   {
     id: 'free',
-    name: 'Freemium',
+    name: 'Version d\'essai',
     price: {},
-    description: 'Testez gratuitement les capacités de l\'IA',
+    description: 'Découvrez les capacités de l\'IA gratuitement',
     features: [
       'Jusqu\'à 5 documents',
       '3 conversations',
@@ -96,23 +96,22 @@ export const pricingPlans: PricingPlan[] = [
       conversations: 3,
       messagesPerConversation: 10
     },
-    cta: 'Commencer gratuitement'
+    cta: 'Essayer gratuitement'
   },
   {
     id: 'premium',
-    name: 'Premium',
+    name: 'Achat unique',
     price: {
-      monthly: 4.99,
-      yearly: 29.99
+      oneTime: 4.99
     },
-    description: 'Liberté totale pour vos documents et questions',
+    description: 'Accès illimité à vie - Un seul paiement',
     features: [
       'Documents illimités',
       'Conversations illimitées',
       'Messages illimités',
       'Support prioritaire',
-      'Nouvelles fonctionnalités en avant-première',
-      'Support technique dédié'
+      'Mises à jour gratuites à vie',
+      'Toutes les fonctionnalités incluses'
     ],
     limits: {
       documents: 'unlimited',
@@ -120,7 +119,7 @@ export const pricingPlans: PricingPlan[] = [
       messagesPerConversation: 'unlimited'
     },
     popular: true,
-    cta: 'Passer Premium'
+    cta: 'Acheter maintenant - 4,99€'
   }
 ]
 

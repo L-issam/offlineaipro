@@ -12,6 +12,7 @@ export interface PricingPlan {
   id: string
   name: string
   price: {
+    oneTime?: number
     monthly?: number
     yearly?: number
   }

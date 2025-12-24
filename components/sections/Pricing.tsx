@@ -74,7 +74,16 @@ export function Pricing() {
 
                   {/* Pricing */}
                   <div className="mt-4">
-                    {plan.price.monthly || plan.price.yearly ? (
+                    {plan.price.oneTime ? (
+                      <div className="space-y-2">
+                        <div className="text-4xl font-bold">
+                          {formatPrice(plan.price.oneTime)}
+                        </div>
+                        <div className="text-sm text-muted-foreground">
+                          Paiement unique • Accès à vie
+                        </div>
+                      </div>
+                    ) : plan.price.monthly || plan.price.yearly ? (
                       <div className="space-y-2">
                         {plan.price.monthly && (
                           <div className="text-4xl font-bold">
