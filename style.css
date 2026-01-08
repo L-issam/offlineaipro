@@ -1032,6 +1032,9 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .hero-banner {
+        margin-top: 1rem;
+    }
     .nav {
         padding: 0.75rem 0;
     }
