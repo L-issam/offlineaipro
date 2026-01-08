@@ -308,7 +308,7 @@ body {
     display: flex;
     align-items: center;
     background: white;
-    padding: 1rem 1.5rem;
+    padding: 0.35rem 1.5rem;
     border-radius: 9999px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     font-weight: 600;
