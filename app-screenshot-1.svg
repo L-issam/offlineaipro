@@ -1,0 +1,32 @@
+<svg width="300" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1f5f9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Phone body -->
+  <rect x="20" y="40" width="260" height="520" rx="30" ry="30" fill="url(#phoneGrad)" stroke="#d1d5db" stroke-width="2"/>
+
+  <!-- Screen -->
+  <rect x="30" y="80" width="240" height="440" rx="20" ry="20" fill="white"/>
+
+  <!-- Header -->
+  <rect x="30" y="80" width="240" height="60" rx="20" ry="20" fill="#2563eb"/>
+  <text x="150" y="115" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">AskTheDocs</text>
+
+  <!-- Chat messages -->
+  <rect x="50" y="180" width="160" height="40" rx="15" ry="15" fill="#e5e7eb"/>
+  <text x="130" y="200" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">Quelle est la valeur de l'angle ?</text>
+
+  <rect x="50" y="240" width="180" height="60" rx="15" ry="15" fill="#f3f4f6"/>
+  <text x="140" y="260" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">Selon le document, l'angle du</text>
+  <text x="140" y="275" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">dossier est de 15°</text>
+
+  <!-- Input -->
+  <rect x="50" y="520" width="180" height="35" rx="17.5" ry="17.5" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="140" y="540" text-anchor="middle" fill="#9ca3af" font-family="Arial, sans-serif" font-size="12">Posez votre question...</text>
+
+  <text x="150" y="580" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">Interface de chat IA</text>
+</svg>

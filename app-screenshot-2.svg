@@ -1,0 +1,35 @@
+<svg width="300" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="phoneGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1f5f9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Phone body -->
+  <rect x="20" y="40" width="260" height="520" rx="30" ry="30" fill="url(#phoneGrad2)" stroke="#d1d5db" stroke-width="2"/>
+
+  <!-- Screen -->
+  <rect x="30" y="80" width="240" height="440" rx="20" ry="20" fill="white"/>
+
+  <!-- Header -->
+  <rect x="30" y="80" width="240" height="60" rx="20" ry="20" fill="#2563eb"/>
+  <text x="150" y="115" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">AskTheDocs</text>
+
+  <!-- Upload area -->
+  <rect x="70" y="170" width="160" height="120" rx="10" ry="10" fill="#f8fafc" stroke="#d1d5db" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="150" y="210" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="14">📄</text>
+  <text x="150" y="235" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Glissez vos documents</text>
+  <text x="150" y="250" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">ou cliquez pour sélectionner</text>
+
+  <!-- Supported formats -->
+  <rect x="50" y="320" width="200" height="80" rx="10" ry="10" fill="#f9fafb"/>
+  <text x="150" y="340" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Formats supportés :</text>
+  <text x="150" y="355" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">PDF • Word • Images</text>
+
+  <!-- Upload button -->
+  <rect x="80" y="420" width="140" height="40" rx="20" ry="20" fill="#2563eb"/>
+  <text x="150" y="442" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Parcourir fichiers</text>
+
+  <text x="150" y="580" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">Upload de documents</text>
+</svg>
