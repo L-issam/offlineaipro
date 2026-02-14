@@ -148,6 +148,7 @@ body {
 .logo-text {
     font-size: 1.25rem;
     font-weight: 700;
+    color: #233a5e;
 }
 
 .nav-menu {
@@ -226,6 +227,7 @@ body {
     padding: 1rem 2rem;
     font-size: 1.125rem;
     font-weight: 700;
+    color: #236bd6;
 }
 
 .btn-small {
@@ -271,7 +273,7 @@ body {
     display: inline-flex;
     align-items: center;
     background-color: #dbeafe;
-    color: #2e9549;
+    color: #101010;
     padding: 0.5rem 1rem;
     border-radius: 9999px;
     font-size: 0.875rem;
@@ -287,13 +289,13 @@ body {
 .hero-title {
     font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 800;
-    color: #265432;
+    color: #1e1c1b;
     line-height: 1.1;
     margin-bottom: 1.5rem;
 }
 
 .highlight {
-    color: #2e9549;
+    color: #3B82F6;
 }
 
 .hero-description {
@@ -398,7 +400,7 @@ body {
 .section-header h2 {
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 800;
-    color: #265432;
+    color: #1e1c1b;
     margin-bottom: 1rem;
 }
 
@@ -437,7 +439,7 @@ body {
 .feature-card h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #265432;
+    color: #3B82F6;
     margin-bottom: 1rem;
 }
 
@@ -493,7 +495,7 @@ body {
     justify-content: center;
     width: 3rem;
     height: 3rem;
-    background: #2e9549;
+    background: #3B82F6;
     color: white;
     border-radius: 50%;
     font-weight: 700;
@@ -509,7 +511,7 @@ body {
 .step h3 {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #265432;
+    color: #3B82F6;
     margin-bottom: 1rem;
 }
 
@@ -666,9 +668,6 @@ body {
     margin-bottom: 1rem;
 }
 
-.highlight-box p {
-    color: #2e9549;
-}
 
 /* Variations de couleur pour highlight-box */
 .highlight-box.purple {
@@ -729,7 +728,7 @@ body {
     padding: 1.5rem;
     cursor: pointer;
     font-weight: 600;
-    color: #265432;
+    color: #1e1c1b;
     list-style: none;
 }
 
@@ -857,12 +856,12 @@ body {
 }
 
 .highlight-box h3 {
-    color: #2e9549;
+    color: #1e1c1b;
     margin-bottom: 0.5rem;
 }
 
 .highlight-box p {
-    color: #2e9549;
+    color: #1e1c1b;
     margin: 0;
 }
 
@@ -1031,7 +1030,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #265432;
+    background: #0a1b3e;
     color: white;
     padding: 3rem 0 2rem;
     margin-top: 4rem;
