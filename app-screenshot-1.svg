@@ -14,10 +14,10 @@
 
   <!-- Header -->
   <rect x="30" y="80" width="240" height="60" rx="20" ry="20" fill="#2563eb"/>
-  <text x="150" y="115" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">AskTheDocs</text>
+  <text x="150" y="115" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Offline AI Pro</text>
 
   <!-- Chat messages -->
-  <rect x="50" y="180" width="160" height="40" rx="15" ry="15" fill="#e5e7eb"/>
+  <rect x="40" y="180" width="180" height="40" rx="15" ry="15" fill="#e5e7eb"/>
   <text x="130" y="200" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">Quelle est la valeur de l'angle ?</text>
 
   <rect x="50" y="240" width="180" height="60" rx="15" ry="15" fill="#f3f4f6"/>
