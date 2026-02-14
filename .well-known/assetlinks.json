@@ -1,8 +1,14 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.askthedocs.app",
-    "sha256_cert_fingerprints": [48:90:56:44:3D:CB:FD:E8:11:C3:9A:AE:1A:DE:79:63:07:9B:93:E1:C0:09:D4:DE:8D:1C:5B:B9:E8:E5:8D:5B]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.askthedocs.app",
+      "sha256_cert_fingerprints": [
+        "8C:B2:6A:20:E9:E5:41:2B:2F:33:5A:C4:B7:DB:97:12:8D:23:D7:5E:B0:73:BF:EC:AB:E8:81:5F:1A:32:6F:7F"
+      ]
+    }
   }
-}]
+]
