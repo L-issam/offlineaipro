@@ -671,6 +671,27 @@ body {
     color: #0369a1;
 }
 
+/* Variations de couleur pour highlight-box */
+.highlight-box.purple {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+}
+
+.highlight-box.purple h3,
+.highlight-box.purple p {
+    color: white;
+}
+
+.highlight-box.orange {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+    border: none;
+}
+
+.highlight-box.orange h3,
+.highlight-box.orange p {
+    color: white;
+}
+
 .footer-note {
     color: #6b7280;
     font-size: 0.875rem;
