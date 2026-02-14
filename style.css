@@ -75,7 +75,7 @@ body {
 .hamburger span {
     width: 24px;
     height: 2px;
-    background: #374151;
+    background: #72806b;
     transition: all 0.3s;
     transform-origin: center;
 }
@@ -119,21 +119,21 @@ body {
 
 .mobile-menu a {
     display: block;
-    color: #374151;
+    color: #72806b;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
 }
 
 .mobile-menu a:hover {
-    color: #1e40af;
+    color: #2e9549;
 }
 
 .logo {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #1f2937;
+    color: #265432;
     font-weight: 700;
     font-size: 1.25rem;
 }
@@ -159,7 +159,7 @@ body {
 
 .nav-menu a {
     text-decoration: none;
-    color: #6b7280;
+    color: #72806b;
     font-weight: 500;
     transition: color 0.3s ease;
     padding: 0.5rem 1rem;
@@ -167,7 +167,7 @@ body {
 }
 
 .nav-menu a:hover {
-    color: #2563eb;
+    color: #2e9549;
     background-color: #f3f4f6;
 }
 
@@ -187,39 +187,39 @@ body {
 }
 
 .btn-primary {
-    background-color: #2563eb;
+    background-color: #1aab41;
     color: white;
-    border: 2px solid #2563eb;
+    border: 2px solid #1aab41;
     padding: 0.65rem 1.65rem;
 }
 
 .btn-primary:hover {
-    background-color: #1d4ed8;
-    border-color: #1d4ed8;
+    background-color: #2e9549;
+    border-color: #2e9549;
     transform: translateY(-1px);
-    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 10px 25px rgba(103, 235, 37, 0.3);
 }
 
 .btn-outline {
     background-color: transparent;
-    color: #2563eb;
-    border: 2px solid #2563eb;
+    color: #2e9549;
+    border: 2px solid #2e9549;
 }
 
 .btn-outline:hover {
-    background-color: #2563eb;
+    background-color: #2e9549;
     color: white;
 }
 
 .btn-secondary {
-    background-color: #6b7280;
+    background-color: #72806b;
     color: white;
-    border: 2px solid #6b7280;
+    border: 2px solid #72806b;
 }
 
 .btn-secondary:hover {
-    background-color: #4b5563;
-    border-color: #4b5563;
+    background-color: #72806b;
+    border-color: #72806b;
 }
 
 .btn-large {
@@ -271,7 +271,7 @@ body {
     display: inline-flex;
     align-items: center;
     background-color: #dbeafe;
-    color: #1e40af;
+    color: #2e9549;
     padding: 0.5rem 1rem;
     border-radius: 9999px;
     font-size: 0.875rem;
@@ -287,18 +287,18 @@ body {
 .hero-title {
     font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 800;
-    color: #1f2937;
+    color: #265432;
     line-height: 1.1;
     margin-bottom: 1.5rem;
 }
 
 .highlight {
-    color: #2563eb;
+    color: #2e9549;
 }
 
 .hero-description {
     font-size: 1.25rem;
-    color: #6b7280;
+    color: #72806b;
     line-height: 1.6;
     margin-bottom: 2.5rem;
     max-width: 600px;
@@ -322,7 +322,7 @@ body {
     border-radius: 9999px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     font-weight: 600;
-    color: #374151;
+    color: #72806b;
 }
 
 .feature-icon {
@@ -340,7 +340,7 @@ body {
 
 .hero-footer {
     font-size: 0.875rem;
-    color: #9ca3af;
+    color: #72806b;
     margin-top: 2rem;
 }
 
@@ -398,13 +398,13 @@ body {
 .section-header h2 {
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 800;
-    color: #1f2937;
+    color: #265432;
     margin-bottom: 1rem;
 }
 
 .section-header p {
     font-size: 1.125rem;
-    color: #6b7280;
+    color: #72806b;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -437,12 +437,12 @@ body {
 .feature-card h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #265432;
     margin-bottom: 1rem;
 }
 
 .feature-card p {
-    color: #6b7280;
+    color: #72806b;
     margin-bottom: 1rem;
 }
 
@@ -455,7 +455,7 @@ body {
     padding: 0.5rem 0;
     padding-left: 1.5rem;
     position: relative;
-    color: #4b5563;
+    color: #72806b;
 }
 
 .feature-card li::before {
@@ -493,7 +493,7 @@ body {
     justify-content: center;
     width: 3rem;
     height: 3rem;
-    background: #2563eb;
+    background: #2e9549;
     color: white;
     border-radius: 50%;
     font-weight: 700;
@@ -509,12 +509,12 @@ body {
 .step h3 {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #265432;
     margin-bottom: 1rem;
 }
 
 .step p {
-    color: #6b7280;
+    color: #72806b;
 }
 
 /* Pricing Section */
@@ -540,13 +540,13 @@ body {
 }
 
 .pricing-card:hover {
-    border-color: #2563eb;
-    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.1);
+    border-color: #2a4331;
+    box-shadow: 0 20px 40px rgba(103, 235, 37, 0.2);
 }
 
 .pricing-card.featured {
-    border-color: #2563eb;
-    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.2);
+    border-color: #2a4331;
+    box-shadow: 0 20px 40px rgba(103, 235, 37, 0.2);
     transform: scale(1.05);
 }
 
@@ -555,7 +555,7 @@ body {
     top: -1rem;
     left: 50%;
     transform: translateX(-50%);
-    background: #2563eb;
+    background: #2a4331;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 9999px;
@@ -571,12 +571,12 @@ body {
 .pricing-header h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #265432;
     margin-bottom: 0.5rem;
 }
 
 .pricing-header p {
-    color: #6b7280;
+    color: #72806b;
 }
 
 .price {
@@ -586,12 +586,12 @@ body {
 .price-amount {
     font-size: 3rem;
     font-weight: 800;
-    color: #1f2937;
+    color: #265432;
 }
 
 .price-note {
     font-size: 0.875rem;
-    color: #6b7280;
+    color: #72806b;
     margin-top: 0.5rem;
 }
 
@@ -601,7 +601,7 @@ body {
 
 .pricing-features p {
     font-weight: 600;
-    color: #1f2937;
+    color: #265432;
     margin-bottom: 1rem;
 }
 
@@ -612,7 +612,7 @@ body {
 
 .pricing-features li {
     padding: 0.5rem 0;
-    color: #4b5563;
+    color: #72806b;
 }
 
 .pricing-footer {
@@ -646,7 +646,7 @@ body {
 }
 
 .justification-item strong {
-    color: #1f2937;
+    color: #265432;
     margin-right: 0.25rem;
 }
 
@@ -662,12 +662,12 @@ body {
 }
 
 .highlight-box h3 {
-    color: #0c4a6e;
+    color: #2e9549;
     margin-bottom: 1rem;
 }
 
 .highlight-box p {
-    color: #0369a1;
+    color: #2e9549;
 }
 
 /* Variations de couleur pour highlight-box */
@@ -699,7 +699,7 @@ body {
 }
 
 .footer-note {
-    color: #6b7280;
+    color: #72806b;
     font-size: 0.875rem;
     text-align: center;
     margin-top: 1rem;
@@ -729,7 +729,7 @@ body {
     padding: 1.5rem;
     cursor: pointer;
     font-weight: 600;
-    color: #1f2937;
+    color: #265432;
     list-style: none;
 }
 
@@ -739,7 +739,7 @@ body {
 
 .faq-item p {
     padding: 0 1.5rem 1.5rem;
-    color: #6b7280;
+    color: #72806b;
     line-height: 1.6;
 }
 
@@ -749,7 +749,7 @@ body {
 }
 
 .faq-cta p {
-    color: #6b7280;
+    color: #72806b;
     margin-bottom: 1rem;
 }
 
@@ -770,7 +770,7 @@ body {
 .deletion-content h1 {
     font-size: 2.5rem;
     font-weight: 800;
-    color: #1f2937;
+    color: #265432;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -787,7 +787,7 @@ body {
 
 .content-header .subtitle {
     font-size: 1.125rem;
-    color: #6b7280;
+    color: #72806b;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -795,21 +795,21 @@ body {
 .privacy-content h2 {
     font-size: 1.75rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #265432;
     margin: 2.5rem 0 1rem 0;
 }
 
 .privacy-content h3 {
     font-size: 1.25rem;
     font-weight: 600;
-    color: #374151;
+    color: #72806b;
     margin: 2rem 0 1rem 0;
 }
 
 .privacy-content p,
 .deletion-content p {
     margin-bottom: 1rem;
-    color: #4b5563;
+    color: #72806b;
 }
 
 .privacy-content ul,
@@ -821,7 +821,7 @@ body {
 .privacy-content li,
 .deletion-content li {
     margin-bottom: 0.5rem;
-    color: #4b5563;
+    color: #72806b;
 }
 
 .privacy-content ol {
@@ -831,7 +831,7 @@ body {
 
 .privacy-content ol li {
     margin-bottom: 0.5rem;
-    color: #4b5563;
+    color: #72806b;
 }
 
 /* Highlight boxes */
@@ -857,12 +857,12 @@ body {
 }
 
 .highlight-box h3 {
-    color: #0c4a6e;
+    color: #2e9549;
     margin-bottom: 0.5rem;
 }
 
 .highlight-box p {
-    color: #0369a1;
+    color: #2e9549;
     margin: 0;
 }
 
@@ -921,7 +921,7 @@ body {
 .platform-guide h2 {
     font-size: 1.75rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #265432;
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -941,7 +941,7 @@ body {
 }
 
 .platform-tab h3 {
-    color: #1f2937;
+    color: #265432;
     margin-bottom: 1rem;
 }
 
@@ -952,7 +952,7 @@ body {
 
 .platform-tab li {
     margin-bottom: 0.5rem;
-    color: #4b5563;
+    color: #72806b;
 }
 
 .platform-note {
@@ -969,7 +969,7 @@ body {
     text-align: center;
     font-size: 1.75rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #265432;
     margin-bottom: 2rem;
 }
 
@@ -989,7 +989,7 @@ body {
     padding: 0.5rem 0;
     padding-left: 2rem;
     position: relative;
-    color: #4b5563;
+    color: #72806b;
 }
 
 .data-column li::before {
@@ -1008,7 +1008,7 @@ body {
 .contact-section h2 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #265432;
     margin-bottom: 1rem;
 }
 
@@ -1031,7 +1031,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #1f2937;
+    background: #265432;
     color: white;
     padding: 3rem 0 2rem;
     margin-top: 4rem;
@@ -1093,7 +1093,7 @@ body {
 }
 
 .footer-bottom {
-    border-top: 1px solid #374151;
+    border-top: 1px solid #72806b;
     padding-top: 2rem;
     text-align: center;
     color: #9ca3af;
@@ -1188,7 +1188,7 @@ body {
         order: -1;
         margin-bottom: 2rem;
         padding: 1rem 0;
-        border-bottom: 1px solid #374151;
+        border-bottom: 1px solid #72806b;
     }
 
     .footer-links {
