@@ -257,7 +257,7 @@ body {
 .banner-image {
     max-width: 100%;
     height: auto;
-    border-radius: 1rem;
+    border-radius: 100% 100% 2rem 2rem;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
