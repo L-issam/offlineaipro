@@ -213,9 +213,9 @@ body {
 }
 
 .btn-secondary {
-    background-color: #72806b;
+    background-color: #64748B;
     color: white;
-    border: 2px solid #72806b;
+    border: 2px solid #64748B;
 }
 
 .btn-secondary:hover {
