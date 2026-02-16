@@ -5,6 +5,30 @@
     box-sizing: border-box;
 }
 
+.video-row{
+  display:flex;
+  gap:20px;
+}
+
+.video-row video{
+  width:50%;
+  height:auto;
+  object-fit:cover;
+  border-radius:12px;
+}
+
+/* Smartphone */
+@media (max-width:768px){
+  .video-row{
+    flex-direction:column;
+  }
+
+  .video-row video{
+    width:100%;
+  }
+}
+
+
 html {
     font-size: 16px;
     scroll-behavior: smooth;
