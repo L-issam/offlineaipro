@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Development files (not needed for GitHub Pages)
+get_sha256.bat
+README-App-Links.md
+
+# Keep .well-known for App Links verification
+!.well-known/
+
+# Google verification files (keep as backup)
+# google-site-verification.html
+# googled73342057f284323.html
