@@ -361,28 +361,31 @@
   }
   
   .feature-item {
-      display: flex;
+      display: inline-flex;
       align-items: center;
-    background: rgba(255, 255, 255, 0.76);
-    padding: 0.45rem 0.8rem;
-    border: 1px solid var(--line);
-    border-radius: 6px;
-    box-shadow: none;
+      gap: 0.5rem;
+      background: rgba(255, 255, 255, 0.76);
+      padding: 0.45rem 0.8rem;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      box-shadow: none;
       font-weight: 600;
       color: #72806b;
+      line-height: 1.2;
   }
-  
+
   .feature-icon {
       width: 1.5rem;
       height: 1.5rem;
       margin-right: 0.75rem;
       border-radius: 50%;
   }
-  
-  .shield-icon-small,
-  .zap-icon {
-      margin-right: 0.75rem;
-      font-size: 1.25rem;
+
+  .feature-item-icon {
+      flex-shrink: 0;
+      width: 0.9rem;
+      height: 0.9rem;
+      display: block;
   }
   
   .platform-line {
@@ -451,7 +454,7 @@
   .phone-screen {
       width: 200px;
       height: auto;
-      border-radius: 2rem;
+      border-radius: 10px;
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   }
   
